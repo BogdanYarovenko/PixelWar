@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel War IUT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="header-nom">Pixel IUT War</h1>
+    </header>
+    <main>
+      <div id="left-side">
+        <p class="text">Liste de joueurs</p>
+        <table id="information">
+          <thead>
+            <tr>
+              <th>Nom</th>
+              <th>Equipe</th>
+              <th>Derniere Modification</th>
+              <th>Banni</th>
+              <th>Number of Pixels Modifies</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+       
+      </div>
+      <table id="tableau"></table>
+      <div id="right-side">
+        <p class="text">Identification obligatoire</p>
+        <div class="input-container-uid">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Entrez votre UID"
+          />
+          <img src="images/eye-open.png" alt="" id="eye-open" />
+        </div>
+        <p class="text">Choisir une couleur</p>
+        <div class="input-container">
+          <input type="color" id="color" name="head" value="#FFFFFF" />
+        </div>
+
+        <p class="text">Temps d'attente avant modification</p>
+        <p id="temps-attente">Vous pouvez modifier un pixel</p>
+        <p class="text">Chosir votre équipe</p>
+        <div id="equipe">
+          <button value="1">Equipe 1</button>
+          <button value="2">Equipe 2</button>
+          <button value="3">Equipe 3</button>
+          <button value="4">Equipe 4</button>
+        </div>
+        <p id="temps-equipe"></p>
+        <p class="text">Dernière information retournée par le serveur:</p>
+        <p id="info_serveur"></p>
+      </div>
+    </main>
+    <footer>
+      <a href="https://codenestedu.fr/resultats/"
+        ><h1 id="footer-nom">Histoire de pixels</h1></a
+      >
+    </footer>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

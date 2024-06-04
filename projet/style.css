@@ -1,0 +1,79 @@
+#logo {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+#header-nom, #footer-nom {
+  font-family: Pixelify Sans, sans-serif;
+}
+#image-decoration{
+padding-left: 70px; 
+width: 500px;
+height: 300px;
+
+}
+header, footer {
+  background-color: blue;
+}
+#header-nom, #footer-nom {
+  text-align: center;
+  color: white;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+#information {
+ border-collapse: collapse;
+  border: 1px solid black;
+}
+#information th {
+  padding-right: 30px;
+  border: 1px solid black;
+}
+#information tr td {
+  padding-right: 30px;
+  border: 1px solid black;
+}
+#information tbody{
+  text-align: center;
+}
+#tableau {
+  border-collapse: collapse;
+  width: 550px;
+  height: 550px;
+ 
+}
+.text {
+  background-color: blue;
+  color: white;
+}
+p {
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-container-uid{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+
+}
+#eye-open{
+  height: 20px;
+  width: 25px;
+}
+#equipe {
+  
+  display: flex;
+  justify-content: space-around;
+}
+
